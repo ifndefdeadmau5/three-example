@@ -36,7 +36,7 @@ function init() {
 
   //Load Model
   let loader = new THREE.GLTFLoader();
-  loader.load("./house/cube.gltf", function (gltf) {
+  loader.load("./house/scene.gltf", function (gltf) {
     scene.add(gltf.scene);
     house = gltf.scene.children[0];
     animate();
